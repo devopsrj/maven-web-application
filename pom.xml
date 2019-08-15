@@ -32,7 +32,7 @@
 	</properties>
 	
 	<!-- This below repositories downlad the dependincies fron nexus -->
-	
+	<!--
 	<repositories>
 		<repository>
 			<id>central</id>
@@ -50,6 +50,7 @@
 		</pluginRepository>
 	</pluginRepositories>
 	
+	-->
 	
 	<dependencies>
 
