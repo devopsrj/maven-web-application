@@ -31,25 +31,6 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 	
-	<!-- This below repositories downlad the dependincies fron nexus -->
-	
-	<repositories>
-		<repository>
-			<id>central</id>
-			<url>http://13.233.56.232:8081/repository/maven-flipkart-proxy/</url>
-			<releases><enabled>true</enabled></releases>
-			<snapshots><enabled>true</enabled></snapshots>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>central</id>
-			<url>http://13.233.56.232:8081/repository/maven-flipkart-proxy/</url>
-			<releases><enabled>true</enabled></releases>
-			<snapshots><enabled>true</enabled></snapshots>
-		</pluginRepository>
-	</pluginRepositories>
-	
 	
 	
 	<dependencies>
