@@ -12,7 +12,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">SMTP email notification Tested and Nexus test and /web-hook updated /.</h1>
+<h1 align="center">Paytm2 project launched/.</h1>
 <h1 align="center">
 	100 % Job Guarntee DevOps Program will start on July 28th..
 	Very Good Training center for DevOps in Maratha Halli and also for Job Assitance... and Job Support also...Teaching Real Time scnerios</h1>
