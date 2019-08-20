@@ -1,11 +1,11 @@
 node{
     def mvnHome = tool name: 'maven-.3.6.1', type: 'maven'
     
-    
+    /*
     stage('checkout code'){
         git branch: 'development', credentialsId: '91f016b4-3022-4e8d-b75b-7daa2d04a0b3', url: 'https://github.com/devopsrj/maven-web-application.git'
     }
-    
+    */
     stage('Build'){
      if(isUnix()){
      sh "${mvnHome}/bin/mvn clean package"
@@ -15,7 +15,7 @@ node{
        bat "${mvnHome}/bin/mvn clean package"
       }
     }
-    
+    /*
     stage('sonarqube report'){
      if(isUnix()){
      sh "${mvnHome}/bin/mvn sonar:sonar"
@@ -44,7 +44,7 @@ node{
         else{
             bat "echo windows"
         }
-        }
+        }*/
     }
 
 
